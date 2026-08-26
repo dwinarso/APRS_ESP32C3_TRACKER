@@ -1,3 +1,9 @@
+Merakit APRS Tracker Simple dengan ESP32C3 Super Mini Dev Module
+ESP32C3 Super Mini Dev Module sepertinya cukup mampu menangani semuanya. Dari situ mencoba membuat versi yang lebih sederhana, hanya pakai satu ESP32C3 Super Mini Dev Module, modul GPS, dan radio HT Baofeng dengan trigger PTT simple menggunakan optocoupler.
+
+Hasilnya adalah tracker APRS yang bisa mengirim posisi sendiri lewat protokol AX.25 dengan modulasi AFSK. Tracker ini juga dilengkapi web server kecil, yang digunakan untuk mengubah setingan callsign, status, dan interval transmit langsung dari HP tanpa harus upload ulang kode.
+
+Di sini saya akan membagikan tutorialnya secara lengkap dari persiapan Hardware, perakitan hingga unggah kodingan ke ESP32.
 Hardware yang dibutuhkan
 Komponen yang saya pakai cukup standar:
 - ESP32C3 Super Mini Dev Module
